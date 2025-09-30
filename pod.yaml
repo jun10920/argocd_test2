@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-world-pod
+  name: hello-world-pod-khg
   namespace: test
   labels:
-    app: hello-world
+    app: hello-world-khg
 spec:
   containers:
   - name: busybox-container
